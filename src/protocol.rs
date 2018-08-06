@@ -292,6 +292,7 @@ custom_derive! {
         Opps = code_to_u32!(b"OPPS"),
         Free = code_to_u32!(b"FREE"),
         Init = code_to_u32!(b"INIT"),
+        Ctd = code_to_u32!(b"CTD\0"),
         Null = 0,
     }
 }
